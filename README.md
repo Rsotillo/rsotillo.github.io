@@ -136,7 +136,7 @@
 
     <div class="container section">
         <!-- ADD IMAGE HERE -->
-        <img src="Users/renesotillo/Desktop/Screenshot 2025-03-06 at 16.52.09.png" alt="Bio Image">
+        <img src="/Users/renesotillo/Desktop/Screenshot 2025-03-10 at 11.18.20.jpeg" alt="Bio Image">
         <div class="text-content">
             <div class="section-title">Bio</div>
             <p class="main-text">
@@ -150,7 +150,7 @@
 
     <div class="container section">
         <!-- ADD IMAGE HERE -->
-        <img src="dear-god-image.jpg" alt="Dear God Image">
+        <img src="/users/renesotillo/Desktop/an_english_cod_2014.136.5.jpg" alt="Dear God Image">
         <div class="text-content">
             <div class="section-title">Dear God, King David is Dead</div>
             <p class="main-text">
