@@ -472,7 +472,6 @@
                     <p>
                         Here we are. You and me on a digital layer. Face to face, in different times, in different places. <br><br>
                         Check my debut novel "Dear God, King David is Dead", read it through, pay attention, drop the book and forget you even read it. Because nothing is too serious, but the tyranny of the rich, and drudgery of the dull.
-                    </p>
                 </div>
             </div>
             <div class="hero-image">
