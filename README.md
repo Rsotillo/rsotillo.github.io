@@ -3,18 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Author Portfolio</title>
+    <title>Amüre W. Anat - Author</title>
     <style>
+        :root {
+            --cream: #F4EEE0;
+            --dusty-pink: #D8B4A0;
+            --deep-pink: #C88EA7;
+            --charcoal: #393646;
+        }
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Arial', sans-serif;
+            font-family: 'Georgia', serif;
         }
 
         body {
-            background-color: #1a1a1a;
-            color: #ffffff;
+            background-color: var(--cream);
+            color: var(--charcoal);
+            line-height: 1.6;
         }
 
         .header {
@@ -22,135 +30,68 @@
             position: fixed;
             width: 100%;
             top: 0;
-            background: rgba(26, 26, 26, 0.9);
+            background: rgba(244, 238, 224, 0.95);
             z-index: 1000;
-        }
-
-        .nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            border-bottom: 1px solid var(--dusty-pink);
         }
 
         .logo {
-            font-size: 24px;
-            color: #c5a47e;
+            font-size: 28px;
+            color: var(--deep-pink);
             text-decoration: none;
-            font-family: 'Times New Roman', serif;
-        }
-
-        .menu {
-            display: flex;
-            gap: 30px;
-        }
-
-        .menu a {
-            color: #ffffff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 14px;
+            font-family: 'Playfair Display', serif;
         }
 
         .hero {
             height: 100vh;
             display: flex;
             align-items: center;
-            padding: 0 50px;
-            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                        url('hero-bg.jpg');
-            background-size: cover;
-        }
-
-        .hero-content {
-            display: flex;
-            justify-content: space-between;
-            width: 100%;
-            align-items: center;
-        }
-
-        .hero-text {
-            width: 50%;
+            padding: 150px 50px 0;
+            background: linear-gradient(rgba(244, 238, 224, 0.9), rgba(244, 238, 224, 0.9)),
+                        url('floral-pattern.png');
         }
 
         .hero-text h1 {
-            font-size: 48px;
-            color: #c5a47e;
-            margin-bottom: 20px;
-            font-family: 'Times New Roman', serif;
-        }
-
-        .hero-image {
-            width: 40%;
-            text-align: center;
-        }
-
-        .hero-image img {
-            max-width: 400px;
-            height: auto;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-        }
-
-        .section {
-            padding: 100px 50px;
+            color: var(--deep-pink);
+            font-size: 52px;
+            margin-bottom: 25px;
         }
 
         .section-title {
-            text-align: center;
-            margin-bottom: 50px;
-            color: #c5a47e;
-            font-family: 'Times New Roman', serif;
+            color: var(--deep-pink);
+            border-bottom: 2px solid var(--dusty-pink);
+            padding-bottom: 10px;
+            margin-bottom: 40px;
         }
 
-        .about-content {
-            display: flex;
-            gap: 50px;
-            max-width: 1200px;
-            margin: 0 auto;
+        button, .cta-button {
+            background: var(--deep-pink);
+            color: var(--cream);
+            padding: 12px 35px;
+            border-radius: 25px;
+            transition: all 0.3s ease;
         }
 
-        .contact-form {
-            max-width: 600px;
-            margin: 0 auto;
+        button:hover, .cta-button:hover {
+            background: var(--dusty-pink);
+            transform: translateY(-2px);
         }
 
-        input, textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 20px;
-            background: #333;
-            border: 1px solid #444;
-            color: white;
+        .book-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(200, 142, 167, 0.1);
         }
-
-        button {
-            background: #c5a47e;
-            color: white;
-            padding: 15px 30px;
-            border: none;
-            cursor: pointer;
-            text-transform: uppercase;
-        }
-
-        .social-links {
-            text-align: center;
-            margin-top: 50px;
-        }
-
-        .social-links a {
-            color: #c5a47e;
-            margin: 0 15px;
-            font-size: 20px;
-        }
-
     </style>
 </head>
 <body>
     <header class="header">
         <nav class="nav">
-            <a href="#" class="logo">Author Name</a>
+            <a href="#" class="logo">Amüre W. Anat</a>
             <div class="menu">
                 <a href="#about">About</a>
-                <a href="#books">Books</a>
+                <a href="#books">Novels</a>
                 <a href="#contact">Contact</a>
             </div>
         </nav>
@@ -159,49 +100,35 @@
     <section class="hero">
         <div class="hero-content">
             <div class="hero-text">
-                <h1>Bestselling Author</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-            <div class="hero-image">
-                <img src="book-cover.jpg" alt="Book Cover">
+                <h1>Where Dark Romance Blossoms</h1>
+                <p>Bestselling author of gothic love stories that walk the line between passion and peril</p>
+                <a href="#books" class="cta-button">Explore Novels</a>
             </div>
         </div>
     </section>
 
     <section id="about" class="section">
-        <h2 class="section-title">About the Author</h2>
+        <h2 class="section-title">About Amüre</h2>
         <div class="about-content">
-            <div class="about-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <div class="book-card">
+                <p>"A wordsmith of the shadowed heart, Amüre W. Anat crafts tales where love survives 
+                even the darkest trials. Based in New Orleans, her writing draws inspiration from 
+                historical architecture and the complex beauty of human relationships."</p>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="section">
-        <h2 class="section-title">Contact</h2>
-        <form class="contact-form">
-            <input type="text" placeholder="Name">
-            <input type="email" placeholder="Email">
-            <textarea rows="5" placeholder="Message"></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-        <div class="social-links">
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">Instagram</a>
+    <section id="books" class="section">
+        <h2 class="section-title">Published Works</h2>
+        <div class="book-grid">
+            <!-- Add book cards with:
+            - Title: "Thorns of the Dahlia"
+            - Description: "A forbidden affair in 19th century Venice..."
+            
+            - Title: "Velvet Coffins"
+            - Description: "Modern-day vampire court politics..."
+            -->
         </div>
     </section>
-
-    <script>
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
 </body>
 </html>
