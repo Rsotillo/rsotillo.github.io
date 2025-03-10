@@ -476,6 +476,7 @@
             </div>
             <div class="hero-image">
                 <img src="Screenshot 2025-03-06 at 16.52.09.jpeg" alt="Foto Reciente">
+                
                 <!-- Removed overlay div -->
             </div>
         </div>
@@ -521,9 +522,9 @@
                 </p>
             </div>
             <div class="image-container">
-                <img src="an_english_cod_2014.136.5.jpg" alt="Dear God Image">
-                <!-- Removed overlay div -->
-            </div>
+    <img src="an_english_cod_2014.136.5.jpg" alt="Dear God Image">
+    <p style="font-size: 0.65rem; color: #999; margin-top: 5px; text-align: right;">William Merritt Chase (painter) American, 1849 - 1916</p>
+</div>
         </div>
     </section>
 
