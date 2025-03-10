@@ -119,7 +119,6 @@
     <div class="text-content">
         <div class="section-title">Bio</div>
         <p class="main-text">
-            Child me<br><br>
             1996 - Forever and Never<br><br>
             Born and exist. I love life even though I tried to end it. I've moved in different levels of consciousness many times, up, down, up, down, and always kept flowing to the next one. Life is black and white, grey and colorful. Bright and beautiful, dark and twisted.<br><br>
             I was born in Venezuela, and lived most of my life in a tiny island of the Caribbean. Also lived in Argentina, America, and I'm currently living in Spain.
@@ -133,15 +132,15 @@
         <p class="main-text">
             It is a contemporary coming-of-age story about the highs of reinvention and the inevitable pull of self-destruction.
 
-​
+​<br><br>
 
 A boy escapes his past by reinventing himself in Miami’s nightlife, but as friendships fade and love slips through his fingers, he realizes that no matter how far he runs, he can’t escape himself.
 
-​
+​<br><br>
 
 Through a deeply introspective and emotionally charged narrative, it explores identity, loneliness, and the fleeting nature of joy, while subtly engaging with themes of anti-capitalism and distrust in authority. ​
 
-​
+​<br><br>
 
 It's wild, fun and emotional.
         </p>
