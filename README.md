@@ -61,7 +61,7 @@
     }
 
     .main-text {
-        font-size: 16px;
+        font-size: 18px;
         line-height: 1.8;
     }
 
@@ -81,7 +81,7 @@
     .contact {
         margin-top: 50px;
         text-align: center;
-        font-size: 85%;
+        font-size: 95%;
     }
 
     .contact a {
