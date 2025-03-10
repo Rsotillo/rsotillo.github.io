@@ -467,8 +467,7 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <div class="hero-text">
-             <h1 class="hero-title">Amüre W. Anat</h1>
-                <p class="hero-subtitle">Author of "Dear God, King David is Dead"</p>
+             <h1 class="hero-title">Dear,</h1>
                 <div class="main-text">
                     <p>
                         Here we are. You and me on a digital layer. Face to face, in different times, in different places. <br><br>
@@ -505,8 +504,6 @@
             <div class="text-content">
                 <h2 class="section-title">Projects</h2>
                 <h3 class="book-title">Dear God, King David is Dead</h3>
-                <p class="main-text">
-                    Dear God, King David is Dead
                  <br><br>
                     It is a contemporary coming-of-age story about the highs of reinvention and the inevitable pull of self-destruction.
 
