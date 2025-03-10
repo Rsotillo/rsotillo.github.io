@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="Amüre W. Anat / Author" content="">
+    <meta name="Amüre W. Anat" content="Author">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amüre W. Anat | Author</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -467,16 +467,17 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <div class="hero-text">
-             <h1 class="hero-title">Dear,</h1>
+             <h1 class="hero-title">Amüre W. Anat</h1>
+                <p class="hero-subtitle">Author of "Dear God, King David is Dead"</p>
                 <div class="main-text">
                     <p>
                         Here we are. You and me on a digital layer. Face to face, in different times, in different places. <br><br>
-                        Check out my debut novel "Dear God, King David is Dead", read it through, pay attention, drop the book and forget you even read it. Because nothing is too serious, but the tyranny of the rich, and drudgery of the dull.
+                        Check my debut novel, read it through, pay attention, drop the book and forget you even read it. Because nothing is too serious, but the tyranny of the rich, and drudgery of the dull.
+                    </p>
                 </div>
             </div>
             <div class="hero-image">
                 <img src="Screenshot 2025-03-06 at 16.52.09.jpeg" alt="Foto Reciente">
-                
                 <!-- Removed overlay div -->
             </div>
         </div>
@@ -505,7 +506,8 @@
                 <h2 class="section-title">Projects</h2>
                 <h3 class="book-title">Dear God, King David is Dead</h3>
                 <p class="main-text">
-                  
+                    Dear God, King David is Dead
+                 <br><br>
                     It is a contemporary coming-of-age story about the highs of reinvention and the inevitable pull of self-destruction.
 
                     <br><br>
