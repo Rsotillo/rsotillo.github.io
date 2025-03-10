@@ -1,9 +1,9 @@
 <title>Amüre W. Anat</title>
 <style>
     :root {
-        --dark-blue: #0f1b2d;
+        --black: #000000;
         --steel-blue: #2e4a6b;
-        --light-gray: #f8f9fa;
+        --cream: #f5f5dc;
     }
 
     * {
@@ -14,8 +14,8 @@
     }
 
     body {
-        background-color: var(--light-gray);
-        color: var(--dark-blue);
+        background-color: var(--cream);
+        color: var(--black);
         line-height: 1.6;
         min-height: 100vh;
         display: flex;
@@ -51,6 +51,7 @@
 
     .text-content {
         width: 45%;
+        text-align: left;
     }
 
     .salutation {
@@ -97,17 +98,10 @@
 
         .section img, .text-content {
             width: 100%;
+            text-align: center;
         }
     }
 </style>
-
-<div class="text-content">
-    <div class="salutation">Dear,</div>
-    <div class="decorative-line"></div>
-    <p class="main-text">
-        Here we are. You and me on a digital layer. Face to face, in different times, in different places. Check my debut novel, read it through, pay attention, drop the book and forget you even read it. Because nothing is too serious, but the tyranny of the rich, and drudgery of the dull.
-    </p>
-</div>
 
 <div class="container section">
     <img src="/Users/renesotillo/Desktop/Screenshot 2025-03-10 at 11.18.20.jpeg" alt="Bio Image">
