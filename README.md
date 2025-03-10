@@ -111,11 +111,11 @@
             Here we are. You and me on a digital layer. Face to face, in different times, in different places. Check my debut novel, read it through, pay attention, drop the book and forget you even read it. Because nothing is too serious, but the tyranny of the rich, and drudgery of the dull.
         </p>
     </div>
-    <img src="" alt="Foto Reciente">
+    <img src="Screenshot 2025-03-06 at 16.52.09.jpeg" alt="Foto Reciente">
 </div>
 
 <div class="container section">
-    <img src="/Users/renesotillo/Desktop/Screenshot 2025-03-10 at 11.18.20.jpeg" alt="Bio Image">
+    <img src="Screenshot 2025-03-10 at 11.18.20.jpeg" alt="Bio Image">
     <div class="text-content">
         <div class="section-title">Bio</div>
         <p class="main-text">
@@ -146,7 +146,7 @@ Through a deeply introspective and emotionally charged narrative, it explores id
 It's wild, fun and emotional.
         </p>
     </div>
-    <img src="" alt="Dear God Image">
+    <img src="an_english_cod_2014.136.5.jpg" alt="Dear God Image">
 </div>
 
 <div class="contact">
