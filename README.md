@@ -522,64 +522,89 @@
     <img src="an_english_cod_2014.136.5.jpg" alt="Dear God Image">
     <p style="font-size: 0.65rem; color: #999; margin-top: 5px; text-align: right;">William Merritt Chase (painter) American, 1849 - 1916</p>
 </div>
-<!-- This should be placed inside the existing book-section, after the Dear God project content -->
-<div class="gallery-container" data-aos="fade-up" data-aos-delay="200">
-    <h3 class="gallery-title">Paintings</h3>
-    <div class="gallery-row">
-        <div class="gallery-item">
-            <div class="gallery-image-container">
-                <img src="IMG_4944.jpeg" alt="Painting 1">
-                <img src="IMG_4915.jpeg" alt="Painting 1">
-                <div class="painting-info">
-                    <p class="painting-title">Respect All</p>
-                    <p class="painting-year">2021</p>
+<!-- Remove the first two lines of your existing code that try to place this inside the book-section -->
+
+<section id="paintings" class="section paintings-section">
+    <div class="section-inner" data-aos="fade-up">
+        <div class="text-content">
+            <h2 class="section-title">Paintings</h2>
+            <div class="gallery-container">
+                <div class="gallery-row">
+                    <div class="gallery-item">
+                        <div class="gallery-image-container">
+                            <img src="IMG_4944.jpeg" alt="Painting 1">
+                            <div class="painting-info">
+                                <p class="painting-title">Respect All</p>
+                                <p class="painting-year">2021</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-image-container">
+                            <img src="E12778F9-DE47-445B-ABC2-0CA8B8FD379A_1_105_c.jpeg" alt="Painting 2">
+                            <div class="painting-info">
+                                <p class="painting-title">Sin Ti</p>
+                                <p class="painting-year">2021</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="gallery-item">
-            <div class="gallery-image-container">
-                <img src="E12778F9-DE47-445B-ABC2-0CA8B8FD379A_1_105_c.jpeg" alt="Painting 2">
-                <div class="painting-info">
-                    <p class="painting-title">Sin Ti</p>
-                    <p class="painting-year">2021</p>
+                <div class="gallery-row">
+                    <div class="gallery-item">
+                        <div class="gallery-image-container">
+                            <img src="8043D5F1-3883-4325-B418-00878CFA2490_1_105_c.jpeg" alt="Painting 3">
+                            <div class="painting-info">
+                                <p class="painting-title">Lonelier Everyday</p>
+                                <p class="painting-year">2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-image-container">
+                            <img src="E6733AE1-27BA-4BCD-AC43-984F11D68BD8_1_105_c.jpeg" alt="Painting 4">
+                            <div class="painting-info">
+                                <p class="painting-title">Untitled</p>
+                                <p class="painting-year">2022</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="gallery-row">
-        <div class="gallery-item">
-            <div class="gallery-image-container">
-                <img src="8043D5F1-3883-4325-B418-00878CFA2490_1_105_c.jpeg" alt="Painting 3">
-                <div class="painting-info">
-                    <p class="painting-title">Lonelier Everyday</p>
-                    <p class="painting-year">2022</p>
-                </div>
-            </div>
-        </div>
-        <div class="gallery-item">
-            <div class="gallery-image-container">
-                <img src="E6733AE1-27BA-4BCD-AC43-984F11D68BD8_1_105_c.jpeg" alt="Painting 4">
-                <div class="painting-info">
-                    <p class="painting-title">Untitled</p>
-                    <p class="painting-year">2022</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+</section>
 
 <style>
-    /* Gallery Section Styles */
-    .gallery-title {
-        font-size: 1.5rem;
-        font-weight: 700;
-        margin: 3rem 0 2rem;
-        color: var(--accent);
+    /* Paintings Section Styles */
+    .paintings-section {
+        background-color: var(--primary);
+        color: var(--light);
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .paintings-section::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="100" height="100" fill="none"/><path d="M0,0L100,100" stroke="rgba(255,255,255,0.05)" stroke-width="1"/></svg>');
+        opacity: 0.2;
+    }
+
+    .paintings-section .section-title {
+        color: var(--light);
+    }
+
+    .paintings-section .section-title::after {
+        background: var(--accent);
     }
     
     .gallery-container {
         width: 100%;
-        margin-top: 4rem;
+        margin-top: 2rem;
     }
 
     .gallery-row {
@@ -596,7 +621,7 @@
     .gallery-image-container {
         width: 100%;
         height: 0;
-        padding-bottom: 85%; /* Larger aspect ratio for bigger images */
+        padding-bottom: 100%; /* Square aspect ratio */
         position: relative;
         overflow: hidden;
         border-radius: 10px;
@@ -646,10 +671,6 @@
         .gallery-row {
             flex-direction: column;
             gap: 2rem;
-        }
-
-        .gallery-image-container {
-            padding-bottom: 100%; /* Square aspect ratio on mobile */
         }
         
         /* Make sure text is fully visible */
