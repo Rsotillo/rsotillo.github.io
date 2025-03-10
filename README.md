@@ -136,7 +136,7 @@
 
     <div class="container section">
         <!-- ADD IMAGE HERE -->
-        <img src="bio-image.jpg" alt="Bio Image">
+        <img src="/Users/renesotillo/Desktop/Screenshot 2025-03-06 at 16.52.09.png" alt="Bio Image">
         <div class="text-content">
             <div class="section-title">Bio</div>
             <p class="main-text">
