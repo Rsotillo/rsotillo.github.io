@@ -102,11 +102,10 @@
         }
     }
 </style>
-
+  
 <div class="container section">
-    <img src="/Users/renesotillo/Desktop/Screenshot 2025-03-10 at 11.18.20.jpeg" alt="Bio Image">
     <div class="text-content">
-        <div class="section-title">Dear,</div>
+        <div class="section-title">Dear God, King David is Dead</div>
         <p class="main-text">
             Child me<br><br>
            Here we are. You and me on a digital layer. Face to face, in different times, in different places. Check my debut novel, read it through, pay attention, drop the book and forget you even read it. Because nothing is too serious, but the tyranny of the rich, and drudgery of the dull.
@@ -144,7 +143,7 @@ Through a deeply introspective and emotionally charged narrative, it explores id
 It's wild, fun and emotional.
         </p>
     </div>
-    <img src="/Users/renesotillo/Desktop/an_english_cod_2014.136.5.jpg" alt="Dear God Image">
+    <img src="" alt="Dear God Image">
 </div>
 
 <div class="contact">
