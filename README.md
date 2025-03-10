@@ -569,8 +569,8 @@
         <div class="section-inner reverse" data-aos="fade-up">
             <div class="text-content">
                 <h2 class="section-title">Projects</h2>
-                 <h1 class="hero-title"Dear God, King David is Dead</h1>
-              
+                    Dear God, King David is Dead
+                 ​<br><br>
                     It is a contemporary coming-of-age story about the highs of reinvention and the inevitable pull of self-destruction.
 
                     ​<br><br>
