@@ -164,7 +164,7 @@
         <p>Phone: +34 645-076-253</p>
         <p>Email: <a href="mailto:Aishtapamura@gmail.com">Aishtapamura@gmail.com</a></p>
         <a href="https://www.instagram.com/renesotillo/" target="/renesotillo/">Instagram</a>
-        <a href="https://www.linkedin.com/in/amurewanat/)" target="amurewanat/">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/amurewanat/" target="amurewanat/">LinkedIn</a>
     </div>
 </body>
 </html>
