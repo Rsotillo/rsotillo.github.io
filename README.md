@@ -517,7 +517,6 @@
                     <br><br>
 
                     It's wild, fun and emotional.
-                </p>
             </div>
             <div class="image-container">
     <img src="an_english_cod_2014.136.5.jpg" alt="Dear God Image">
