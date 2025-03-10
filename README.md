@@ -106,6 +106,15 @@
 <div class="container section">
     <img src="/Users/renesotillo/Desktop/Screenshot 2025-03-10 at 11.18.20.jpeg" alt="Bio Image">
     <div class="text-content">
+        <div class="section-title">Dear,</div>
+        <p class="main-text">
+            Child me<br><br>
+           Here we are. You and me on a digital layer. Face to face, in different times, in different places. Check my debut novel, read it through, pay attention, drop the book and forget you even read it. Because nothing is too serious, but the tyranny of the rich, and drudgery of the dull.
+        </p>
+    </div>
+<div class="container section">
+    <img src="/Users/renesotillo/Desktop/Screenshot 2025-03-10 at 11.18.20.jpeg" alt="Bio Image">
+    <div class="text-content">
         <div class="section-title">Bio</div>
         <p class="main-text">
             Child me<br><br>
