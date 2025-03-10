@@ -108,7 +108,8 @@
     <div class="text-content">
         <div class="section-title">Dear,</div>
         <p class="main-text">
-            Here we are. You and me on a digital layer. Face to face, in different times, in different places. Check my debut novel, read it through, pay attention, drop the book and forget you even read it. Because nothing is too serious, but the tyranny of the rich, and drudgery of the dull.
+            Here we are. You and me on a digital layer. Face to face, in different times, in different places. <br><br>
+            Check my debut novel, read it through, pay attention, drop the book and forget you even read it. Because nothing is too serious, but the tyranny of the rich, and drudgery of the dull.
         </p>
     </div>
     <img src="Screenshot 2025-03-06 at 16.52.09.jpeg" alt="Foto Reciente">
