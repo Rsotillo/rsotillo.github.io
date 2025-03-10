@@ -522,7 +522,6 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <div class="hero-text">
-                <h1 class="hero-title">Amüre W. Anat</h1>
                 <p class="hero-subtitle">Author of "Dear God, King David is Dead"</p>
                 <div class="main-text">
                     <p>
