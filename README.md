@@ -136,7 +136,7 @@
 
     <div class="container section">
         <!-- ADD IMAGE HERE -->
-        <img src=Screenshot 2025-03-10 at 11.18.20.png" alt="Bio Image">
+        <img src="bio-image.jpg" alt="Bio Image">
         <div class="text-content">
             <div class="section-title">Bio</div>
             <p class="main-text">
@@ -154,14 +154,7 @@
         <div class="text-content">
             <div class="section-title">Dear God, King David is Dead</div>
             <p class="main-text">
-                
-It is a contemporary coming-of-age story about the highs of reinvention and the inevitable pull of self-destruction.
-
-A boy escapes his past by reinventing himself in Miami’s nightlife, but as friendships fade and love slips through his fingers, he realizes that no matter how far he runs, he can’t escape himself.
-
-Through a deeply introspective and emotionally charged narrative, it explores identity, loneliness, and the fleeting nature of joy, while subtly engaging with themes of anti-capitalism and distrust in authority. ​
-
-It's wild, fun and emotional.
+                The echoes of a fallen king reverberate through time. His reign, his legacy, his name—erased by the tide of forgetfulness. But in the void he left behind, who will rise?
             </p>
         </div>
     </div>
@@ -170,8 +163,8 @@ It's wild, fun and emotional.
         <h2>Contact Information</h2>
         <p>Phone: +34 645-076-253</p>
         <p>Email: <a href="mailto:Aishtapamura@gmail.com">Aishtapamura@gmail.com</a></p>
-        <a href="https://www.instagram.com" target="_blank">Instagram</a>
-        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+        <a href="https://www.instagram.com" target="/renesotillo/">Instagram</a>
+        <a href="https://www.linkedin.com" target="amurewanat/">LinkedIn</a>
     </div>
 </body>
 </html>
