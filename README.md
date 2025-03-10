@@ -149,8 +149,9 @@
     </div>
 
     <div class="container section">
-        <!-- ADD IMAGE HERE -->
-        <img src="/users/renesotillo/Desktop/an_english_cod_2014.136.5.jpg" alt="Dear God Image">
+
+
+        <img src="/Users/renesotillo/Desktop/an_english_cod_2014.136.5.jpg" alt="Dear God Image">
         <div class="text-content">
             <div class="section-title">Dear God, King David is Dead</div>
             <p class="main-text">
