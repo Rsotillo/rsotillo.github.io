@@ -155,7 +155,11 @@
         <div class="text-content">
             <div class="section-title">Dear God, King David is Dead</div>
             <p class="main-text">
-                The echoes of a fallen king reverberate through time. His reign, his legacy, his name—erased by the tide of forgetfulness. But in the void he left behind, who will rise?
+              Dear God, King David is Dead It is a contemporary coming-of-age story about the highs of reinvention and the inevitable pull of self-destruction.
+              
+              ​A boy escapes his past by reinventing himself in Miami’s nightlife, but as friendships fade and love slips through his fingers, he realizes that no matter how far he runs, he can’t escape himself.
+              
+              ​Through a deeply introspective and emotionally charged narrative, it explores identity, loneliness, and the fleeting nature of joy, while subtly engaging with themes of anti-capitalism and distrust in authority. ​​It's wild, fun and emotional.
             </p>
         </div>
     </div>
