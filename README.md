@@ -522,6 +522,143 @@
     <img src="an_english_cod_2014.136.5.jpg" alt="Dear God Image">
     <p style="font-size: 0.65rem; color: #999; margin-top: 5px; text-align: right;">William Merritt Chase (painter) American, 1849 - 1916</p>
 </div>
+<section id="gallery" class="section">
+    <h2 class="section-title" data-aos="fade-up">Paintings</h2>
+    <div class="gallery-container" data-aos="fade-up" data-aos-delay="200">
+        <div class="gallery-row">
+            <div class="gallery-item">
+                <div class="gallery-image-container">
+                    <img src="IMG_4944.HEIC" alt="Painting 1">
+                    <img src="IMG_4915.HEIC" alt="Painting 1">
+                </div>
+                <p class="painting-title">Respect All</p>
+                <p class="painting-year">2020</p>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-image-container">
+                    <img src="E6733AE1-27BA-4BCD-AC43-984F11D68BD8_1_105_c.jpeg" alt="Painting 2">
+                </div>
+                <p class="painting-title">Untitled</p>
+                <p class="painting-year">2021</p>
+            </div>
+        </div>
+        <div class="gallery-row">
+            <div class="gallery-item">
+                <div class="gallery-image-container">
+                    <img src="E12778F9-DE47-445B-ABC2-0CA8B8FD379A_1_105_c.jpeg" alt="Painting 3">
+                </div>
+                <p class="painting-title">Sin Ti</p>
+                <p class="painting-year">2021</p>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-image-container">
+                    <img src="8043D5F1-3883-4325-B418-00878CFA2490_1_105_c.jpeg" alt="Painting 4">
+                </div>
+                <p class="painting-title">Lonelier Everyday</p>
+                <p class="painting-year">2021</p>
+            </div>
+        </div>
+    </div>
+    <div class="gallery-description" data-aos="fade-up" data-aos-delay="300">
+        <p class="main-text">
+            My paintings are my idea of how the brain looks like on a deeper layer. 
+            Working primarily with acrylics, I express my feelings and emotions through 
+            abstract compositions that let me express how I feel, leaving traces of my buddhist
+            experiences and my anticapitalist heart. 
+        </p>
+    </div>
+</section>
+
+<style>
+    /* Gallery Section Styles */
+    .gallery-container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 5%;
+    }
+
+    .gallery-row {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .gallery-item {
+        flex: 1;
+        max-width: calc(50% - 1rem);
+    }
+
+    .gallery-image-container {
+        width: 100%;
+        height: 0;
+        padding-bottom: 75%; /* 4:3 aspect ratio */
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        transition: var(--transition);
+    }
+
+    .gallery-image-container:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    }
+
+    .gallery-image-container img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .painting-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin: 1rem 0 0.2rem;
+        color: var(--primary);
+    }
+
+    .painting-year {
+        font-size: 1rem;
+        color: var(--text);
+        opacity: 0.8;
+    }
+
+    .gallery-description {
+        width: 100%;
+        max-width: 800px;
+        margin: 2rem auto 0;
+        text-align: center;
+    }
+
+    /* Mobile Responsive Adjustments */
+    @media (max-width: 768px) {
+        .gallery-row {
+            flex-direction: column;
+            gap: 3rem;
+        }
+
+        .gallery-item {
+            max-width: 100%;
+        }
+
+        .gallery-description {
+            padding: 0 1rem;
+        }
+
+        /* Ensure text is fully readable */
+        .main-text {
+            font-size: 1rem;
+            line-height: 1.7;
+            text-align: left;
+            padding: 0 1rem;
+        }
+    }
+</style>
         </div>
     </section>
 
