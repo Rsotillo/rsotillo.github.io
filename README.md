@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -69,10 +68,11 @@
         .nav-links a {
             color: var(--primary);
             text-decoration: none;
-            font-weight: 500;
+            font-weight: 700; /* Changed from 500 to 700 for bold */
             position: relative;
             padding: 0.5rem 0;
             transition: var(--transition);
+            font-size: 1.2rem; /* Increased font size */
         }
 
         .nav-links a::after {
@@ -159,39 +159,9 @@
             max-width: 500px;
             border-radius: 10px;
             box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
-            transition: var(--transition);
         }
 
-        .hero-image .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(to top, rgba(46, 74, 107, 0.8), transparent);
-            opacity: 0;
-            transition: var(--transition);
-            display: flex;
-            align-items: flex-end;
-            justify-content: center;
-            padding: 2rem;
-            border-radius: 10px;
-        }
-
-        .hero-image:hover .overlay {
-            opacity: 1;
-        }
-
-        .hero-image .overlay-text {
-            color: var(--light);
-            text-align: center;
-            transform: translateY(20px);
-            transition: var(--transition);
-        }
-
-        .hero-image:hover .overlay-text {
-            transform: translateY(0);
-        }
+        /* Removed overlay and hover effects for hero-image */
 
         .section {
             padding: 120px 5%;
@@ -254,43 +224,10 @@
             width: 100%;
             border-radius: 10px;
             box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
-            transition: var(--transition);
         }
 
-        .image-container:hover img {
-            transform: scale(1.02);
-        }
-
-        .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(to top, rgba(46, 74, 107, 0.8), transparent);
-            opacity: 0;
-            transition: var(--transition);
-            display: flex;
-            align-items: flex-end;
-            justify-content: center;
-            padding: 2rem;
-            border-radius: 10px;
-        }
-
-        .image-container:hover .overlay {
-            opacity: 1;
-        }
-
-        .overlay-text {
-            color: var(--light);
-            text-align: center;
-            transform: translateY(20px);
-            transition: var(--transition);
-        }
-
-        .image-container:hover .overlay-text {
-            transform: translateY(0);
-        }
+        /* Removed image hover effects */
+        /* Removed overlay styles for image containers */
 
         .book-section {
             background-color: var(--primary);
@@ -320,6 +257,13 @@
 
         .book-section .section-title::after {
             background: var(--accent);
+        }
+        
+        .book-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--accent);
         }
 
         .contact-section {
@@ -533,12 +477,7 @@
             </div>
             <div class="hero-image">
                 <img src="Screenshot 2025-03-06 at 16.52.09.jpeg" alt="Foto Reciente">
-                <div class="overlay">
-                    <div class="overlay-text">
-                        <h3>Amüre W. Anat</h3>
-                        <p>Author</p>
-                    </div>
-                </div>
+                <!-- Removed overlay div -->
             </div>
         </div>
     </section>
@@ -547,12 +486,7 @@
         <div class="section-inner" data-aos="fade-up">
             <div class="image-container">
                 <img src="Screenshot 2025-03-10 at 11.18.20.jpeg" alt="Bio Image">
-                <div class="overlay">
-                    <div class="overlay-text">
-                        <h3>Amüre W. Anat</h3>
-                        <p>Author</p>
-                    </div>
-                </div>
+                <!-- Removed overlay div -->
             </div>
             <div class="text-content">
                 <h2 class="section-title">Bio</h2>
@@ -569,31 +503,28 @@
         <div class="section-inner reverse" data-aos="fade-up">
             <div class="text-content">
                 <h2 class="section-title">Projects</h2>
+                <h3 class="book-title">Dear God, King David is Dead</h3>
+                <p class="main-text">
                     Dear God, King David is Dead
-                 ​<br><br>
+                 <br><br>
                     It is a contemporary coming-of-age story about the highs of reinvention and the inevitable pull of self-destruction.
 
-                    ​<br><br>
+                    <br><br>
 
                     A boy escapes his past by reinventing himself in Miami's nightlife, but as friendships fade and love slips through his fingers, he realizes that no matter how far he runs, he can't escape himself.
 
-                    ​<br><br>
+                    <br><br>
 
-                    Through a deeply introspective and emotionally charged narrative, it explores identity, loneliness, and the fleeting nature of joy, while subtly engaging with themes of anti-capitalism and distrust in authority. ​
+                    Through a deeply introspective and emotionally charged narrative, it explores identity, loneliness, and the fleeting nature of joy, while subtly engaging with themes of anti-capitalism and distrust in authority. 
 
-                    ​<br><br>
+                    <br><br>
 
                     It's wild, fun and emotional.
                 </p>
             </div>
             <div class="image-container">
                 <img src="an_english_cod_2014.136.5.jpg" alt="Dear God Image">
-                <div class="overlay">
-                    <div class="overlay-text">
-                        <h3>Dear God, King David is Dead</h3>
-                        <p>A Novel by Amüre W. Anat</p>
-                    </div>
-                </div>
+                <!-- Removed overlay div -->
             </div>
         </div>
     </section>
