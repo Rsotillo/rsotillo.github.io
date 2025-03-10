@@ -504,7 +504,6 @@
             <div class="text-content">
                 <h2 class="section-title">Projects</h2>
                 <h3 class="book-title">Dear God, King David is Dead</h3>
-                 <br><br>
                     It is a contemporary coming-of-age story about the highs of reinvention and the inevitable pull of self-destruction.
 
                     <br><br>
