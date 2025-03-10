@@ -30,7 +30,6 @@
             line-height: 1.8;
             overflow-x: hidden;
         }
-
         header {
             position: fixed;
             top: 0;
@@ -524,8 +523,6 @@
 </div>
 <!-- Remove the first two lines of your existing code that try to place this inside the book-section -->
 
-<section id="paintings" class="section paintings-section">
-    <div class="section-inner" data-aos="fade-up">
         <div class="text-content">
             <h2 class="section-title">Paintings</h2>
             <div class="gallery-container">
