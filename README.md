@@ -73,12 +73,33 @@
 
         .section {
             margin-top: 60px;
+            text-align: center;
+        }
+
+        .section img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 8px;
+            margin-bottom: 20px;
         }
 
         .section-title {
             font-size: 32px;
             margin-bottom: 15px;
             color: var(--steel-blue);
+        }
+
+        .contact {
+            text-align: center;
+            margin-top: 80px;
+        }
+
+        .contact a {
+            display: inline-block;
+            margin: 10px;
+            color: var(--steel-blue);
+            text-decoration: none;
+            font-size: 18px;
         }
 
         @media (max-width: 768px) {
@@ -115,47 +136,36 @@
     </div>
 
     <div class="container section">
+        <!-- ADD IMAGE HERE -->
+        <img src="bio-image.jpg" alt="Bio Image">
         <div class="text-content">
             <div class="section-title">Bio</div>
             <p class="main-text">
-               
-                1996 - Forever and Never
-
-Born and exist
-I love life even though I tried to end it. I've moved in different levels of consciousness many times, up, down, up, down, and always kept flowing to the next one. Life is black and white, grey and colorful. Bright and beautiful, dark and twisted.
-
-​
-
-I was born in Venezuela, and lived most of my life in a tiny island of the Caribbean.
-
- 
-
-Also lived in Argentina, America, and I'm currently living in Spain.
+                Child me<br><br>
+                1996 - Forever and Never<br><br>
+                Born and exist. I love life even though I tried to end it. I've moved in different levels of consciousness many times, up, down, up, down, and always kept flowing to the next one. Life is black and white, grey and colorful. Bright and beautiful, dark and twisted.<br><br>
+                I was born in Venezuela, and lived most of my life in a tiny island of the Caribbean. Also lived in Argentina, America, and I'm currently living in Spain.
             </p>
         </div>
     </div>
 
     <div class="container section">
+        <!-- ADD IMAGE HERE -->
+        <img src="dear-god-image.jpg" alt="Dear God Image">
         <div class="text-content">
             <div class="section-title">Dear God, King David is Dead</div>
             <p class="main-text">
-                
-Dear God, King David is Dead
-It is a contemporary coming-of-age story about the highs of reinvention and the inevitable pull of self-destruction.
-
-​
-
-A boy escapes his past by reinventing himself in Miami’s nightlife, but as friendships fade and love slips through his fingers, he realizes that no matter how far he runs, he can’t escape himself.
-
-​
-
-Through a deeply introspective and emotionally charged narrative, it explores identity, loneliness, and the fleeting nature of joy, while subtly engaging with themes of anti-capitalism and distrust in authority. ​
-
-​
-
-It's wild, fun and emotional.
+                The echoes of a fallen king reverberate through time. His reign, his legacy, his name—erased by the tide of forgetfulness. But in the void he left behind, who will rise?
             </p>
         </div>
+    </div>
+
+    <div class="contact">
+        <h2>Contact Information</h2>
+        <p>Phone: +34 645-076-253</p>
+        <p>Email: <a href="mailto:Aishtapamura@gmail.com">Aishtapamura@gmail.com</a></p>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
     </div>
 </body>
 </html>
