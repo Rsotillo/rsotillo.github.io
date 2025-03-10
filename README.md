@@ -3,7 +3,7 @@
     :root {
         --black: #000000;
         --steel-blue: #2e4a6b;
-        --cream: #f5f5dc;
+        --cream: #f4f0e8;
     }
 
     * {
