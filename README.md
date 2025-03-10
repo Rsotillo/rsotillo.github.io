@@ -158,21 +158,39 @@
             width: 100%;
             max-width: 500px;
             border-radius: 10px;
-            box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.1), -20px -20px 60px rgba(255, 255, 255, 0.8);
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
             transition: var(--transition);
-            transform: rotate(-3deg);
         }
 
-        .hero-image::before {
-            content: '';
+        .hero-image .overlay {
             position: absolute;
-            top: -20px;
-            right: -20px;
+            top: 0;
+            left: 0;
             width: 100%;
             height: 100%;
-            border: 2px solid var(--accent);
+            background: linear-gradient(to top, rgba(46, 74, 107, 0.8), transparent);
+            opacity: 0;
+            transition: var(--transition);
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            padding: 2rem;
             border-radius: 10px;
-            z-index: -1;
+        }
+
+        .hero-image:hover .overlay {
+            opacity: 1;
+        }
+
+        .hero-image .overlay-text {
+            color: var(--light);
+            text-align: center;
+            transform: translateY(20px);
+            transition: var(--transition);
+        }
+
+        .hero-image:hover .overlay-text {
+            transform: translateY(0);
         }
 
         .section {
@@ -496,7 +514,7 @@
         <nav class="nav-links" id="navLinks">
             <a href="#home">Home</a>
             <a href="#bio">Bio</a>
-            <a href="#book">Novel</a>
+            <a href="#book">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -515,6 +533,12 @@
             </div>
             <div class="hero-image">
                 <img src="Screenshot 2025-03-06 at 16.52.09.jpeg" alt="Foto Reciente">
+                <div class="overlay">
+                    <div class="overlay-text">
+                        <h3>Amüre W. Anat</h3>
+                        <p>Author</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -526,7 +550,7 @@
                 <div class="overlay">
                     <div class="overlay-text">
                         <h3>Amüre W. Anat</h3>
-                        <p>Author & Creator</p>
+                        <p>Author</p>
                     </div>
                 </div>
             </div>
@@ -544,7 +568,7 @@
     <section id="book" class="section book-section">
         <div class="section-inner reverse" data-aos="fade-up">
             <div class="text-content">
-                <h2 class="section-title">Dear God, King David is Dead</h2>
+                <h2 class="section-title">Projects</h2>
                 <p class="main-text">
                     It is a contemporary coming-of-age story about the highs of reinvention and the inevitable pull of self-destruction.
 
