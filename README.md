@@ -30,6 +30,7 @@
             line-height: 1.8;
             overflow-x: hidden;
         }
+
         header {
             position: fixed;
             top: 0;
@@ -521,6 +522,7 @@
     <img src="an_english_cod_2014.136.5.jpg" alt="Dear God Image">
     <p style="font-size: 0.65rem; color: #999; margin-top: 5px; text-align: right;">William Merritt Chase (painter) American, 1849 - 1916</p>
 </div>
+        </div>
     </section>
 
     <section id="contact" class="contact-section">
