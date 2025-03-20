@@ -467,10 +467,10 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <div class="hero-text">
-             <h1 class="hero-title">Dear,</h1>
+             <h1 class="hero-title">Dear dear,</h1>
                 <div class="main-text">
                     <p>
-                        Here we are. You and me on a digital layer. Face to face, in different times, in different places. <br><br>
+                        Here we are. You and me on a digital layer. Face to face, in different times, in different places.
                         Check my debut novel, read it through, pay attention, drop the book and forget you even read it. Because nothing is too serious, but the tyranny of the rich, and drudgery of the dull.
                     </p>
                 </div>
