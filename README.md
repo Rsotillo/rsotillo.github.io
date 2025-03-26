@@ -162,8 +162,6 @@
             box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
         }
 
-        /* Removed overlay and hover effects for hero-image */
-
         .section {
             padding: 120px 5%;
             display: flex;
@@ -226,9 +224,6 @@
             border-radius: 10px;
             box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
         }
-
-        /* Removed image hover effects */
-        /* Removed overlay styles for image containers */
 
         .book-section {
             background-color: var(--primary);
@@ -429,6 +424,7 @@
                 padding: 2rem;
                 transition: var(--transition);
                 box-shadow: -5px 0 30px rgba(0, 0, 0, 0.1);
+                z-index: 1001; /* Added higher z-index */
             }
             
             .nav-links.active {
@@ -446,6 +442,59 @@
             .section-title::after {
                 left: 50%;
                 transform: translateX(-50%);
+            }
+            
+            /* Fix for section padding on mobile */
+            .section {
+                padding: 80px 5%;
+            }
+            
+            /* Fix for the bio text overflow */
+            .main-text {
+                width: 100%;
+                display: block;
+                clear: both;
+                word-wrap: break-word;
+                overflow-wrap: break-word;
+            }
+            
+            /* Add some margin for better spacing */
+            #bio .text-content {
+                margin-top: 20px;
+            }
+            
+            /* Ensure images don't overflow */
+            .image-container img {
+                max-width: 100%;
+                height: auto;
+            }
+            
+            /* Adjust hero for better mobile display */
+            .hero {
+                height: auto;
+                min-height: 100vh;
+                padding-top: 80px;
+                padding-bottom: 40px;
+            }
+            
+            /* Make sure the hero text is readable */
+            .hero-text {
+                width: 100%;
+            }
+        }
+        
+        /* Additional mobile fixes for smaller screens */
+        @media (max-width: 480px) {
+            .hero-title {
+                font-size: 2.5rem;
+            }
+            
+            .section {
+                padding: 60px 5%;
+            }
+            
+            .contact-info p {
+                font-size: 1rem;
             }
         }
     </style>
@@ -477,7 +526,6 @@
             </div>
             <div class="hero-image">
                 <img src="Screenshot 2025-03-06 at 16.52.09.jpeg" alt="Foto Reciente">
-                <!-- Removed overlay div -->
             </div>
         </div>
     </section>
@@ -486,15 +534,16 @@
         <div class="section-inner" data-aos="fade-up">
             <div class="image-container">
                 <img src="Screenshot 2025-03-10 at 11.18.20.jpeg" alt="Bio Image">
-                <!-- Removed overlay div -->
             </div>
             <div class="text-content">
                 <h2 class="section-title">Bio</h2>
-                <p class="main-text">
-                    1996 - Forever and Never<br><br>
-                    Born and exist. I love life even though I tried to end it. I've moved in different levels of consciousness many times, up, down, up, down, and always kept flowing to the next one. Life is black and white, grey and colorful. Bright and beautiful, dark and twisted.<br><br>
-                    I was born in Venezuela, and lived most of my life in a tiny island of the Caribbean. Also lived in Argentina, America, and I'm currently living in Spain.
-                </p>
+                <div class="main-text">
+                    <p>
+                        1996 - Forever and Never<br><br>
+                        Born and exist. I love life even though I tried to end it. I've moved in different levels of consciousness many times, up, down, up, down, and always kept flowing to the next one. Life is black and white, grey and colorful. Bright and beautiful, dark and twisted.<br><br>
+                        I was born in Venezuela, and lived most of my life in a tiny island of the Caribbean. Also lived in Argentina, America, and I'm currently living in Spain.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
@@ -504,24 +553,28 @@
             <div class="text-content">
                 <h2 class="section-title">Projects</h2>
                 <h3 class="book-title">Dear God, King David is Dead</h3>
-                    It is a contemporary coming-of-age story about the highs of reinvention and the inevitable pull of self-destruction.
-
-                    <br><br>
-
-                    A boy escapes his past by reinventing himself in Miami's nightlife, but as friendships fade and love slips through his fingers, he realizes that no matter how far he runs, he can't escape himself.
-
-                    <br><br>
-
-                    Through a deeply introspective and emotionally charged narrative, it explores identity, loneliness, and the fleeting nature of joy, while subtly engaging with themes of anti-capitalism and distrust in authority. 
-
-                    <br><br>
-
-                    It's wild, fun and emotional.
+                <div class="main-text">
+                    <p>
+                        It is a contemporary coming-of-age story about the highs of reinvention and the inevitable pull of self-destruction.
+                    </p>
+                    <br>
+                    <p>
+                        A boy escapes his past by reinventing himself in Miami's nightlife, but as friendships fade and love slips through his fingers, he realizes that no matter how far he runs, he can't escape himself.
+                    </p>
+                    <br>
+                    <p>
+                        Through a deeply introspective and emotionally charged narrative, it explores identity, loneliness, and the fleeting nature of joy, while subtly engaging with themes of anti-capitalism and distrust in authority. 
+                    </p>
+                    <br>
+                    <p>
+                        It's wild, fun and emotional.
+                    </p>
+                </div>
             </div>
             <div class="image-container">
-    <img src="an_english_cod_2014.136.5.jpg" alt="Dear God Image">
-    <p style="font-size: 0.65rem; color: #999; margin-top: 5px; text-align: right;">William Merritt Chase (painter) American, 1849 - 1916</p>
-</div>
+                <img src="an_english_cod_2014.136.5.jpg" alt="Dear God Image">
+                <p style="font-size: 0.65rem; color: #999; margin-top: 5px; text-align: right;">William Merritt Chase (painter) American, 1849 - 1916</p>
+            </div>
         </div>
     </section>
 
